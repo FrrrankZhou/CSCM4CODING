@@ -1,4 +1,7 @@
-fc06004 (HEAD -> main) Complete Task 2.1
+a74d606 (HEAD -> main) Completed Task 2.2 bugfix
+6f2459e Completed Task 2.2
+b00e60b Complete Task 2.2
+fc06004 Complete Task 2.1
 8743311 Complete Task 1.2
 24546ff Complete Task 1.1
 095425e (origin/main, origin/HEAD) Initial commit
