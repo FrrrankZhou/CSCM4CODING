@@ -50,10 +50,10 @@ public class StatementPrinter {
     private int getVolumeCredits(Performance performance) {
         // add volume credits
         int result = 0;
-        result += Math.max(p.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
+        result += Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
         // add extra credit for every five comedy attendees
-        if ("comedy".equals(getPlay(p).getType())) {
-            result += p.getAudience() / Constants.COMEDY_EXTRA_VOLUME_FACTOR;
+        if ("comedy".equals(getPlay(performance).getType())) {
+            result += performance.getAudience() / Constants.COMEDY_EXTRA_VOLUME_FACTOR;
         }
         return result;
     }
