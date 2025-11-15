@@ -1,4 +1,5 @@
-92a5299 (HEAD -> main) Completed Task 2.3
+23b0940 (HEAD -> main) Completed Task 2.4
+92a5299 Completed Task 2.3
 a74d606 Completed Task 2.2 bugfix
 6f2459e Completed Task 2.2
 b00e60b Complete Task 2.2
