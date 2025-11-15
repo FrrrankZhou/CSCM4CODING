@@ -47,7 +47,7 @@ public class StatementPrinter {
         return result.toString();
     }
 
-    private int getVolumeCredits(Performance p) {
+    private int getVolumeCredits(Performance performance) {
         // add volume credits
         int result = 0;
         result += Math.max(p.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
